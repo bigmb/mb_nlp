@@ -1,7 +1,7 @@
 from transformers import BertTokenizer, BertForSequenceClassification, AdamW
 import torch
 from torch.utils.data import DataLoader
-from mb_bert_classifier.data.dataset import TextDataset
+from mb_nlp.data.dataset import TextDataset
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from tqdm.auto import tqdm

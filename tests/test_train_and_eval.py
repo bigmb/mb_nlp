@@ -1,4 +1,4 @@
-from mb_bert_classifier.classifier import BertTextClassifier
+from mb_nlp.classifier.bert import BertTextClassifier
 
 # Use the synthetic CSV for training
 csv_path = 'tests/synthetic_train.csv'
