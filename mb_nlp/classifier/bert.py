@@ -1,4 +1,5 @@
-from transformers import BertTokenizer, BertForSequenceClassification, AdamW
+from transformers import BertTokenizer, BertForSequenceClassification
+from torch.optim import AdamW
 import torch
 from torch.utils.data import DataLoader
 from mb_nlp.data.dataset import TextDataset

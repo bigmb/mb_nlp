@@ -1,4 +1,4 @@
-from mb_bert_classifier import BertTextClassifier
+from mb_nlp.classifier import BertTextClassifier
 
 def main():
     classifier = BertTextClassifier(model_name='bert-base-uncased', num_labels=2)
